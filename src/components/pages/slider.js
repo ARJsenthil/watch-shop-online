@@ -16,7 +16,7 @@ export function Slider() {
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" style={{width: "15px", height: "15px"}} class="rounded-circle bg-secondary" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item slider-1 active">
             <div class="container">
               <div class="row">
                 <div class="col-12 slider-content col-lg-6 text-left m-auto" style={{ textAlign: "left" }}>
@@ -26,7 +26,7 @@ export function Slider() {
                     black carbide coating Stocking the finest luxury <br />
                     watch brands, we specialise
                   </p>
-                  <p className="slider-watch-price" style={{ fontSize: "large" }}><b style={{ fontSize: "xx-large", color: "#eb6a2a" }} className="pe-2">$1,200</b><del className="text-secondary">$1,500</del></p>
+                  <p className="slider-watch-price" style={{ fontSize: "large" }}><b className="pe-2">$1,200</b><del className="text-secondary">$1,500</del></p>
                   <div class=" d-flex align-items-center slider-watch-btn">
                     <a href="#" style={{ backgroundColor: "#eb6a2a", fontSize: "small" }} class="px-5 py-3 text-white text-decoration-none">VIEW COLLECTIONS</a>
                   </div>
@@ -38,7 +38,7 @@ export function Slider() {
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
+          <div class="carousel-item slider-2 ">
             <div class="container">
               <div class="row">
                 <div class="col-12 slider-content col-lg-6 text-left m-auto " style={{ textAlign: "left" }}>
@@ -48,18 +48,18 @@ export function Slider() {
                     black carbide coating Stocking the finest luxury <br />
                     watch brands, we specialise
                   </p>
-                  <p className="slider-watch-price" style={{ fontSize: "large" }}><b style={{ fontSize: "xx-large", color: "#eb6a2a" }} className="pe-2">$1,200</b><del className="text-secondary">$1,500</del></p>
+                  <p className="slider-watch-price" style={{ fontSize: "large" }}><b className="pe-2">$1,200</b><del className="text-secondary">$1,500</del></p>
                   <div class=" d-flex align-items-center slider-watch-btn">
                     <a href="#" style={{ backgroundColor: "#eb6a2a", fontSize: "small" }} class="px-5 py-3 text-white text-decoration-none">VIEW COLLECTIONS</a>
                   </div>
                 </div>
-                <div class="position-relative col-12 col-lg-6 home-img-box pt-5">
+                <div class="position-relative slider-watch-img-container col-12 col-lg-6">
                   <img src={bannerWatchImg2} class="slider-watch-img d-flex align-items-center jusify-content-center m-0 m-auto" alt="" />
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
+          <div class="carousel-item slider-3 ">
             <div class="container">
               <div class="row">
                 <div class="col-12 slider-content col-lg-6 text-left m-auto" style={{ textAlign: "left" }}>
@@ -69,12 +69,12 @@ export function Slider() {
                     black carbide coating Stocking the finest luxury <br />
                     watch brands, we specialise
                   </p>
-                  <p className="slider-watch-price" style={{ fontSize: "large" }}><b style={{ fontSize: "xx-large", color: "#eb6a2a" }} className="pe-2">$1,200</b><del className="text-secondary">$1,500</del></p>
+                  <p className="slider-watch-price" style={{ fontSize: "large" }}><b className="pe-2">$1,200</b><del className="text-secondary">$1,500</del></p>
                   <div class=" d-flex align-items-center slider-watch-btn">
                     <a href="#" style={{ backgroundColor: "#eb6a2a", fontSize: "small" }} class="px-5 py-3 text-white text-decoration-none">VIEW COLLECTIONS</a>
                   </div>
                 </div>
-                <div class="position-relative col-12 col-lg-6 home-img-box pt-5">
+                <div class="position-relative slider-watch-img-container col-12 col-lg-6">
                   <img src={bannerWatchImg3} class="slider-watch-img d-flex align-items-center jusify-content-center m-0 m-auto" alt="" />
                 </div>
               </div>

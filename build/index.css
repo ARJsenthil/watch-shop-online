@@ -314,23 +314,17 @@ footer span:last-child {
 .carousel-item {
     height: 850px;
 }
-.slider-watch-img-container {
-
-}
-
 .trending-box span ,.trending-box .price,.trending-box h6{
         text-align: center !important;
     }
 
     .country {
         margin-bottom: 50px;
-    }
-    .country span {
-        border: none !important;
+        border: none;
     }
     .country:nth-child(2), .country:nth-child(5) {
-        border-left: 1px solid gray;
-        border-right: 1px solid gray ;
+        border-left: 1px solid gray !important;
+        border-right: 1px solid gray !important;
     }
 }
 
@@ -339,10 +333,22 @@ footer span:last-child {
         display: grid;
         justify-content: center;
         align-items: center;
-        gap: 15px   ;
+        gap: 15px;
     }
     .country {
         border: none !important;
+        display: grid !important;
+        padding: 0px !important;
+        width: 100%;
+    }
+    .country img {
+        margin: auto !important;
+        margin-bottom: 10px !important;
+    }
+
+    .country:nth-child(2), .country:nth-child(5) {
+        border-left: none !important;
+        border-right: none !important;
     }
 
 .footer-top-contant {
@@ -413,6 +419,9 @@ footer span:last-child {
     margin: auto !important;
     padding-top: 10px;
 }
+.country {
+    display: grid !important;
+}
     .footer-top-contant .f-t-c-right-content {
         font-size: small !important;
     }
@@ -427,8 +436,8 @@ footer span:last-child {
     .carousel-item {
         height: 590px;
     }
-    .country .span2, .country .span4 {
-        border: none;
+    .country{
+        border: none !important;
     }
     .top-brand div:last-child h1 {
             font-size: large;

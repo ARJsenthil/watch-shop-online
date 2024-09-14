@@ -80,40 +80,29 @@ export function MostViewed () {
                     </div>
                 </div>
                 <div className="countries my-5 py-3 row">
-                    <div className="country col- col-md-4 col-lg-2 p-0">
-                        <span className="d-flex align-items-center px-5 border-end">
+                    <div className="country col-6 col-md-4 col-lg-2 p-0 d-flex align-items-center px-5 border-end">
                             <img src={brazil} width={30} height={30} className="me-3 rounded-circle  "/>
-                            brazil
-                        </span>
+                            <span>brazil</span>
                     </div>
-                    <div className="country col- col-md-4 col-lg-2 p-0">
-                        <span className="d-flex align-items-center px-5 border-end">
+                    <div className="country col-6 col-md-4 col-lg-2 p-0 d-flex align-items-center px-5 border-end">
                             <img src={canada} width={30} height={30} className="me-3 rounded-circle  "/>
-                            canada
-                        </span>
+                            <span>canada</span>
                     </div>
-                    <div className="country col- col-md-4 col-lg-2 p-0">
-                        <span className="d-flex align-items-center px-5 border-end">
+                    <div className="country col-6 col-md-4 col-lg-2 p-0 d-flex align-items-center px-5 border-end">
                             <img src={saudi} width={30} height={30} className="me-3 rounded-circle   "/>
-                            saudi
-                        </span>
+                            <span>saudi</span>
                     </div>
-                    <div className="country col- col-md-4 col-lg-2 p-0">
-                        <span className="d-flex align-items-center px-5 border-end">
-                            <img src={singapore} width={30} height={30} className="me-3 rounded-circle"/>                             singapore
-                        </span>
+                    <div className="country col-6 col-md-4 col-lg-2 p-0 d-flex align-items-center px-5 border-end">
+                            <img src={singapore} width={30} height={30} className="me-3 rounded-circle"/>
+                            <span>singapore</span>
                     </div>
-                    <div className="country col- col-md-4 col-lg-2 p-0">
-                        <span className="d-flex align-items-center px-5 border-end">
+                    <div className="country col-6 col-md-4 col-lg-2 p-0 d-flex align-items-center px-5 border-end">
                             <img src={uk} width={30} height={30} className="me-3 rounded-circle   " />
-                            uk
-                        </span>
+                            <span>uk</span>
                     </div>
-                    <div className="country col- col-md-4 col-lg-2 p-0">
-                        <span className="d-flex align-items-center px-5 border-start">
+                    <div className="country col-6 col-md-4 col-lg-2 p-0 d-flex align-items-center px-5 border-start">
                             <img src={usa} width={30} height={30} className="me-3 rounded-circle  " />
-                            usa
-                        </span>
+                            <span>usa</span>
                     </div>
 
                 </div>

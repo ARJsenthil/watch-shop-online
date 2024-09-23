@@ -92,22 +92,22 @@ export function Trending () {
                 </div>
                 <h3 className="text-center my-5 pt-3">Top Brands</h3>
                 <div className="brands row m-auto justify-content-center align-items-center">
-                    <div className="brand col-4 col-lg-2">
+                    <div className="brand col-12 col-sm-6 col-md-4 col-lg-2">
                         <img src={brand1} height={30}/>
                     </div>
-                    <div className="brand mt-4 col-4 col-lg-2">
+                    <div className="brand mt-4 mt-sm-0 col-12 col-sm-6 col-md-4 col-lg-2">
                         <img src={brand2} height={30}/>
                     </div>
-                    <div className="brand mt-4 col-4 col-lg-2">
+                    <div className="brand mt-4 mt-sm-5 col-12 col-sm-6 col-md-4 col-lg-2">
                         <img src={brand3} height={30}/>
                     </div>
-                    <div className="brand mt-4 mt-4 mt-5 mt-lg-0 col-4 col-lg-2">
+                    <div className="brand mt-4 mt-sm-5 mt-lg-0 col-12 col-sm-6 col-md-4 col-lg-2">
                         <img src={brand4} height={30}/>
                     </div>
-                    <div className="brand mt-4 mt-5 mt-lg-0 col-4 col-lg-2">
+                    <div className="brand mt-4 mt-sm-5 mt-lg-0 col-12 col-sm-6 col-md-4 col-lg-2">
                         <img src={brand5} height={30}/>
                     </div>
-                    <div className="brand mt-4 mt-5 mt-lg-0 col-4 col-lg-2">
+                    <div className="brand mt-4 mt-sm-5 mt-lg-0 col-12 col-sm-6 col-md-4 col-lg-2">
                         <img src={brand11} height={30}/>
                     </div>
                 </div>
